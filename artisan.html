@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisans - ArtisanHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">ArtisanHub</a>
+                <nav class="nav">
+                    <a href="shop.html">Shop</a>
+                    <a href="collections.html">Collections</a>
+                    <a href="ar-tryon.html">AR Try-On</a>
+                    <a href="artisan.html">Artisans</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="icon-btn" id="searchBtn" aria-label="Search">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                    <a href="cart.html" class="icon-btn" aria-label="Cart">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </a>
+                    <div class="auth-links">
+                        <a href="login.html">Login</a>
+                        <span>|</span>
+                        <a href="signup.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Artisans Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Meet Our Artisans</h1>
+            <p class="page-subtitle">Every piece tells a story of dedication, skill, and cultural heritage</p>
+        </div>
+    </section>
+
+    <!-- Artisans Grid -->
+    <section class="artisans-page-section">
+        <div class="container">
+            <div class="artisans-grid">
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #8b7355 0%, #a0826d 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Rajesh Kumar</h3>
+                        <p class="artisan-craft">Master Potter</p>
+                        <p class="artisan-location">Jaipur, Rajasthan</p>
+                        <p class="artisan-story">Three generations of pottery craftsmanship from Rajasthan, creating timeless pieces with traditional techniques passed down through family.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #c9a66b 0%, #d4b883 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Priya Devi</h3>
+                        <p class="artisan-craft">Textile Weaver</p>
+                        <p class="artisan-location">Varanasi, Uttar Pradesh</p>
+                        <p class="artisan-story">Preserving the ancient art of handloom weaving, creating vibrant textiles with natural dyes and traditional patterns from Varanasi.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #6b8e6f 0%, #7a9b7e 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Arjun Singh</h3>
+                        <p class="artisan-craft">Wood Carver</p>
+                        <p class="artisan-location">Saharanpur, Uttar Pradesh</p>
+                        <p class="artisan-story">Intricate woodwork inspired by temple architecture, each piece carved with precision and reverence for tradition using sustainable materials.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #a0826d 0%, #b89478 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Meena Sharma</h3>
+                        <p class="artisan-craft">Brass Artisan</p>
+                        <p class="artisan-location">Moradabad, Uttar Pradesh</p>
+                        <p class="artisan-story">Expert in traditional brass work, creating stunning diyas, lamps and home decor items with intricate engravings and timeless beauty.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #d4b883 0%, #e3c794 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Kiran Patel</h3>
+                        <p class="artisan-craft">Block Printer</p>
+                        <p class="artisan-location">Ahmedabad, Gujarat</p>
+                        <p class="artisan-story">Continuing the legacy of block printing with hand-carved wooden blocks, creating beautiful patterns on fabrics and home textiles.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #7a9b7e 0%, #89aa8d 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Amit Kumar</h3>
+                        <p class="artisan-craft">Terracotta Artist</p>
+                        <p class="artisan-location">Kolkata, West Bengal</p>
+                        <p class="artisan-story">Specializing in traditional terracotta pottery, creating eco-friendly and beautiful pieces that honor Bengali artistic traditions.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #b89478 0%, #c7a387 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Ramesh Chand</h3>
+                        <p class="artisan-craft">Copper Smith</p>
+                        <p class="artisan-location">Jaipur, Rajasthan</p>
+                        <p class="artisan-story">Master of copper craftsmanship, creating health-beneficial copper vessels and decorative items using age-old hammering techniques.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #c9a66b 0%, #d8b57a 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Lakshmi Devi</h3>
+                        <p class="artisan-craft">Embroidery Artist</p>
+                        <p class="artisan-location">Lucknow, Uttar Pradesh</p>
+                        <p class="artisan-story">Expert in Chikankari embroidery, creating delicate and intricate needlework that reflects the elegance of Lucknow's artistic heritage.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+
+                <div class="artisan-card">
+                    <div class="artisan-image" style="background: linear-gradient(135deg, #8b7355 0%, #9a8264 100%);"></div>
+                    <div class="artisan-info">
+                        <h3>Gopal Singh</h3>
+                        <p class="artisan-craft">Sandalwood Carver</p>
+                        <p class="artisan-location">Mysore, Karnataka</p>
+                        <p class="artisan-story">Specializing in intricate sandalwood carvings, creating aromatic and beautiful pieces that showcase Mysore's famous woodcraft tradition.</p>
+                        <button class="btn btn-secondary">View Products</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact-section">
+        <div class="container">
+            <h2 class="section-title">Our Impact</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <h3 class="impact-number">500+</h3>
+                    <p class="impact-label">Artisans Supported</p>
+                </div>
+                <div class="impact-card">
+                    <h3 class="impact-number">15</h3>
+                    <p class="impact-label">Indian States</p>
+                </div>
+                <div class="impact-card">
+                    <h3 class="impact-number">50,000+</h3>
+                    <p class="impact-label">Products Sold</p>
+                </div>
+                <div class="impact-card">
+                    <h3 class="impact-number">₹2Cr+</h3>
+                    <p class="impact-label">Fair Wages Paid</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ArtisanHub</h4>
+                    <p>Connecting you with India's finest artisans and their handcrafted treasures.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="shop.html">Shop</a>
+                    <a href="collections.html">Collections</a>
+                    <a href="ar-tryon.html">AR Try-On</a>
+                    <a href="artisan.html">Artisans</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <a href="#faq">FAQ</a>
+                    <a href="#shipping">Shipping</a>
+                    <a href="#returns">Returns</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <a href="#instagram">Instagram</a>
+                    <a href="#facebook">Facebook</a>
+                    <a href="#twitter">Twitter</a>
+                    <a href="#pinterest">Pinterest</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ArtisanHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
